@@ -1,0 +1,124 @@
+@import url(style/reset.css);
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(63, 63, 61, 0.7);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.headerEdit{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(63, 63, 61, 0.7);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    display: none;
+}
+.main{
+    width: 100%;
+    min-height: 800px;
+    padding: 20px 30px;
+    font-size: 16px;
+    font-family: Arial;
+    background-attachment: fixed;
+}
+.textEdit{
+    width: 100%;
+    min-height: 800px;
+    font-size: 16px;
+    font-family: Arial;
+    display: none;
+}
+/* 
+.dropdown-item.active {
+  background-color:   rgba(63, 63, 61, 0.7) !important;
+} */
+#modal{
+    height: 190px;
+    width: 420px;
+    padding: 0px 10px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.palette{
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 5px;
+}
+#modal2{
+    height: 230px;
+    width: 440px;
+    padding: 10px; 
+}
+#backgroundColors {
+    height: 220px;
+    width: 420px;
+    padding: 0px 10px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.backgroundImages{
+    height: 300px;
+    width: 420px;
+    padding: 7px 10px 0 10px; 
+    display: none;
+}
+.bImages{
+    width: 120px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 5px;
+    display: none;
+}
+#backgroundFiles{
+    height: 300px;
+    width: 420px;
+    padding: 10px;
+    display: none;
+}
+#modalLock{
+    height: 230px;
+    width: 420px;
+    padding: 10px; 
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 100;
+}
+#textarea1 {
+    width: 100%;
+  }
+#modalTable{    
+    height: 310px;
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col{
+    text-align: left;
+    margin-top: 10px;
+}
+#modalList{
+    height: 250px;
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.not-valid{
+    box-shadow: 0 0 10px rgb(221, 158, 158);
+    border-color: rgb(221, 158, 158) !important;
+}
